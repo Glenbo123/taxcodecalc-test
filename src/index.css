@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* HMRC Crown Logo styles */
+.hmrc-crown-logo {
+  fill: #008476; /* HMRC official green */
+}
+
+/* Fallback for SVG rendering issues */
+.hmrc-crown-logo path {
+  fill: #008476 !important;
+}
+
+/* Fixed tools container */
+.fixed-tools {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 70;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
